@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200&family=Montserrat&display=swap");
+
+.Imgwith-text {
+  position: relative;
+}
+.main-cont{
+    display: flex;
+    flex-flow: row;
+}
+.contact {
+  position: absolute;
+  top: 25px;
+  left: 235px;
+  display: flex;
+  flex-direction: column;
+  font-family: "Montserrat";
+}
+.contact h1 {
+  color: white !important;
+  font-size: 54px;
+  font-weight: 1000;
+}
+.contact p {
+  font-family: "Montserrat";
+  color: white;
+}
+.contact button {
+  font-weight: bold;
+  height: 40px;
+  border-radius: 4px;
+  border-style: none;
+  font-family: "Montserrat";
+}
+.info-and-button {
+  margin-top: -25px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 50px;
+  font-family: "Montserrat";
+
+}
+
+h2 {
+  font-size: 50px;
+  font-style: bold;
+  color: #133a75;
+}
+
+  @media screen and (max-width:500px) {
+    .contact {
+        position: absolute;
+        top: 25px;
+        left: 120px;
+        display: flex;
+        flex-direction: column;
+        font-family: "Montserrat";
+        font-size: 18px;
+    }
+    .info-and-button {
+        margin-top: 2px;
+      }
+  }
+
+/* right section............. */
+
+.left {
+
+  width: 25rem;
+  
+  height: 35rem;
+  border-radius: 10px;
+  background-color: #1a73e8;
+  color: white;
+  padding: 10px;
+  font-family: "Montserrat";
+}
+.left-content > h3 {
+  color: rgb(255, 255, 255);
+  margin-left: 12px;
+  font-size: 2.5rem;
+}
+.left-content > p {
+  color: #e2eaf6;
+  margin-left: 8px;
+  font-size: 14px;
+  margin-top: -20px;
+}
+input {
+  width: 95%;
+  box-sizing: border-box; 
+  margin: 10px;
+  padding: 10px;
+  background-color: #e2eaf6;
+  border-radius: 5px;
+  border-style: none;
+}
+.button {
+  margin: 10px;
+  font-family: Montserrat;
+  width: 95%;
+  height: 50px;
+  font-weight: 500;
+  border-radius: 5px;
+  border-style: none;
+  font-family: "Montserrat";
+}
+textarea {
+  width: 95%;
+  box-sizing: border-box; 
+  margin: 10px;
+  padding: 10px;
+  height: 5rem;
+  background-color: #e2eaf6;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.Right {
+  width: 29rem;
+}
+.Right > p {
+  margin-top: -15px;
+  color: #666666;
+  font-size: 12px;
+}
+.icons-container {
+  height: 21rem;
+}
+.icons1 {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 10px;
+  background-color: #1a73e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bx {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; 
+  color: #333333;
+  font-family: "Montserrat";
+}
+.bx .icons1 {
+  flex: 0 0 auto; 
+  
+}
+
+.bx p {
+  margin-left: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  font-weight: bold; 
+  font-family: "Montserrat";
+}
